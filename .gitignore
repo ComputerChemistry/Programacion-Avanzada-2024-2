@@ -5,3 +5,5 @@
 *~
 \#*\#
 
+# Ignorar archivos .class
+*.class
