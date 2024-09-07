@@ -1,0 +1,7 @@
+# Ignorar archivos .rar
+*.rar
+
+# Ignorar archivos temporales de Emacs
+*~
+\#*\#
+
