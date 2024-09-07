@@ -1,0 +1,45 @@
+class Estudiante {
+
+    private String nombre; 
+    private  int edad; 
+    private  int expediente;  
+    private  double promedio;
+
+
+    public Estudiante(String nombre,
+		     int edad,
+		     int expediente,
+		     double promedio){
+
+
+    this.nombre = "Carlos";
+    this.edad = 21;
+    this.expediente = 222200601;
+    this.promedio = 8.0;
+
+	
+
+}
+
+    public void getNombre(String nombre){
+
+	this.nombre = nombre; 
+	
+
+} 
+
+    public String setNombre (String nombre){
+
+
+
+	return nombre; 
+}
+
+    public void getEdad(int edad){
+
+	this.edad = edad; 
+
+
+}  
+
+}
